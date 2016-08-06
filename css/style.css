@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  height: 80px;
+}
+nav {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  margin-left: 20px;
+}
+nav ul {
+  margin-right: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+  background: none;
+}
+
+#carousel-section {
+  height: 80%;
+}
+
+#carousel-section .carousel {
+  height: 100%;
+}
+
+#carousel-section .carousel-inner {
+  height: 100%;
+}
+
+#carousel-section .carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slide-1-holder {
+  background: url(../images/1maui.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#slide-2-holder  {
+  background: url(../images/2curacao.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#slide-3-holder  {
+  background: url(../images/3tahiti.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+#slide-4-holder  {
+  background: url(../images/4maldives.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.navbar-brand  {
+  font-size: 2em;
+}
+
+.nav-item  {
+  align-items: flex-end;
+}
